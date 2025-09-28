@@ -162,9 +162,9 @@ export function ForestLayout({ children }: ForestLayoutProps) {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
+              <div className="flex flex-col items-center mb-4">
                 <Image src="/logo.png" alt="Duoheads Logo" width={64} height={64} />
-                <span className="text-xl font-bold">Duoheads</span>
+                <span className="text-xl font-bold mt-2">Duoheads</span>
               </div>
               <p className="text-gray-400">Empowering students with AI-powered learning tools for academic success.</p>
             </div>
